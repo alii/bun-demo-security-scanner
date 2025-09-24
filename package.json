@@ -1,8 +1,8 @@
 {
-	"name": "@acme/bun",
-	"description": "Bun security scanner for acmecorp",
-	"version": "1.0.0",
-	"author": "Acme",
+	"name": "bun-demo-security-scanner",
+	"description": "A useless security scanner for Bun, to demonstrate the Bun Security Scanner API",
+	"version": "0.0.1",
+	"author": "Alistair Smith <hi@alistair.sh>",
 	"license": "MIT",
 	"exports": {
 		"./package.json": "./package.json",
@@ -10,15 +10,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/acme/bun"
+		"url": "https://github.com/alii/bun-demo-security-scanner"
 	},
 	"keywords": [
 		"bun",
 		"security",
-		"provider"
+		"scanner"
 	],
 	"devDependencies": {
-		"@types/bun": "latest",
+		"@types/bun": "1.2.22",
 		"prettier": "^3.6.2",
 		"typescript": "^5.9.2"
 	}
